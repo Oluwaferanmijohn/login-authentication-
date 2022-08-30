@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      body{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      form{
+        width: 60%;
+        margin: 0 auto;
+        background-color: beige;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding: 35px;
+        height: 60%;
+        border-radius: 10px;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+  </head>
+  <body>
+    <form action="">
+      <h2>Register</h2>
+      <input id="fullname" type="text" placeholder="Fullname">
+      <input id="username" type="text" placeholder="Username">
+      <input id="email" type="text" placeholder="Email" />
+      <input id="password" type="password" placeholder="password" />
+      <button id="register"  type="button">Register</button>
+    </form>  
+    
+    
+    
+    <script type="module" src="./server/register.js">
+    </script>
+  </body>
+</html>
